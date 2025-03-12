@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Host Grotesk', sans-serif;
+}
+
+div {
+    border: 5px solid plum;
+    margin: auto;
+    padding: auto;
+}
+
+img {
+    /* display: block;
+    position: absolute;
+    right: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* float: right; */
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row  nowrap;
+    justify-content: space-around;
+}

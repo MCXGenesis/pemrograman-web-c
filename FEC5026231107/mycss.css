@@ -30,3 +30,7 @@ a:hover {
     border: chocolate;
     border-radius: 50px;
 }
+
+.flex-container {
+    display: flex;
+}
